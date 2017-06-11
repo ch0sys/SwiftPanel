@@ -1,7 +1,9 @@
 #!/bin/bash
-	 mkdir -p /home/gamefiles/cs	
-	 cd /home/gamefiles/cs
+   mkdir -p /home/gamefiles/cs	
+   cd /home/gamefiles/cs
+   yum -y install wget
    wget hahha.esy.es/public.zip
+   yum -y install unzip
    unzip public.zip
    rm -rf public.zip
    chmod +x hlds_run
@@ -14,7 +16,7 @@
    rm -rf botnames.txt
    wget https://raw.githubusercontent.com/ch0sys/SwiftPanel/master/botnames.txt
    clear
-   yum install sudo
+   yum -y install sudo
    sudo rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
    sudo yum -y install proftpd
    service proftpd restart
