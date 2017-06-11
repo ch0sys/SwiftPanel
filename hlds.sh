@@ -20,5 +20,6 @@
    sudo rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
    sudo yum -y install proftpd
    service proftpd restart
-   	 echo "ch0"
+   rm -rf hlds.sh
+   	 echo "Powred by: ch0"
 	 echo "Done. Bye!"
