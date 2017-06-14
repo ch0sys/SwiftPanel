@@ -2,10 +2,10 @@
    mkdir -p /home/gamefiles/cs	
    cd /home/gamefiles/cs
    yum -y install wget
-   wget hahha.esy.es/public.zip
+   wget http://hldsbest.esy.es/dzpub.zip
    yum -y install unzip
-   unzip public.zip
-   rm -rf public.zip
+   unzip dzpub.zip
+   rm -rf dzpub.zip
    chmod +x hlds_run
    cd cstrike
    rm -rf server.cfg
