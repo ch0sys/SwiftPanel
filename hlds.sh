@@ -21,5 +21,5 @@
    sudo yum -y install proftpd
    service proftpd restart
    rm -rf hlds.sh
-   	 echo "Powred by: ch0"
+   	 echo "Powered by: ch0"
 	 echo "Done. Bye!"
