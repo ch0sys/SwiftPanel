@@ -1,6 +1,6 @@
 #!/bin/bash
    mkdir -p /home/gamefiles/cs	
-   cd /home/gamefiles/cs
+   cd /home/gamefiles
    yum -y install wget
    wget http://hldsbest.esy.es/dzpub.zip
    yum -y install unzip
